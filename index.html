@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="images/db.ico" rel="icon" type="image/x-icon" />
+    <title>Ghibli Project</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="column dark-grey">
+        <div class="row clickable shadow white center-content">
+            <img src="images/logo.png" id="homepage" onclick="resetAll()" />
+        </div>
+        <div class="row2 yellow">
+            <div class="box clickable shadow red center-content">
+                <img src="images/spiritedaway.jpg" id="ghost" onclick="clickRed()" />
+            </div>
+            <div class="box clickable shadow dark-green center-content">
+                <img src="images/castleinthesky.jpg" id="sky" onclick="clickGreen()" />
+            </div>
+        </div>
+        <div class="row2 blue">
+            <div class="box clickable shadow bronze center-content">
+                <img src="images/Mononoke.jpg" id="wolf" onclick="clickYellow()" />
+            </div>
+            <div class="box clickable shadow navy-blue center-content">
+                <img src="images/HMC.jpg" id="castle" onclick="clickBlue()" />
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="column1 light-blue translucent" id="Okay">
+        <div class="row4 red center-content" id="movieName">
+            <p class="h3" id="text1">千と千尋の神隠し (Spirited Away)</p>
+        </div>
+        <div class="row5 orange" id="rowrowrow">
+            <div class="box2 light-yellow center-content" id="rowYellow">
+                <img src="images/chihiro.png" id="one"/>
+            </div>
+            <div class="box2 light-orange center-content" id="rowOrange">
+                <img src="images/haku.jpeg" id="two" />
+            </div>
+            <div class="box2 light-green center-content" id="rowGreen">
+                <img src="images/noface.png" id="three"/>
+            </div>
+        </div>
+        <div class="row6 pink" id="rowPink">
+            <div class="box3 white center-content" id="rowWhite">
+                <p class="h2" id="text2">千尋 (Chihiro)</p>
+            </div>
+            <div class="box3 light-grey center-content" id="rowGrey">
+                <p class="h2" id="text3">ハク (Haku)</p>
+            </div>
+            <div class="box3 white center-content" id="rowYay">
+                <p class="h2" id="text4">カオナシ (No face)</p>
+            </div>
+        </div>
+        <div class="row7 black" id="rowBlack">
+            <div class="box4 light-yellow center-content" id="rowAbc">
+                <img src="images2/chihiroo.gif" id="four"/>
+            </div>
+            <div class="box4 light-orange center-content" id="rowDef">
+                <img src="images2/hakuu.gif" id="five"/>
+            </div>
+            <div class="box4 light-green center-content" id="rowGhi">
+                <img src="images2/nofaceee.gif" id="six"/>
+            </div>
+
+        </div>
+    </div>
+    <audio src="sounds/SpiritedAwayTheme.mp3" id="time"></audio>
+    <audio src="sounds/MononokeTheme.mp3" id="to"></audio>
+    <audio src="sounds/SkyInSkyTheme.mp3" id="finally"></audio>
+    <audio src="sounds/HowlCastleTheme.mp3"id="finish"><audio>
+
+            <script src="script.js"></script>
+</body>
+
+</html>

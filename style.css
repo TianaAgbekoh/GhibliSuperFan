@@ -1,0 +1,230 @@
+/* Add filters: https://www.w3schools.com/cssref/css3_pr_filter.asp */
+/* Make your own favicon: https://favicon.io/ */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  display: flex;
+  background-color: #141414;
+}
+
+/* build your layout */
+.row {
+  height: 20%;
+  width: 100%;
+  display: block;
+}
+.row2 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.row3 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.column {
+  height: 100%;
+  width: 40%;
+  display: block;
+}
+.column1 {
+  height: 100%;
+  width: 60%;
+  display: block;
+  background-image: url("images/background.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.box {
+  height: 100%;
+  width: 50%;
+}
+.box1 {
+  height: 20%;
+  width: 100%;
+}
+
+/* Javascript code */
+.row4 {
+  height: 25%;
+  width: 100%;
+  display: block;
+}
+.row5 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.row6 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.row7 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+
+.box2 {
+  height: 100%;
+  width: 33.33%;
+}
+.box3 {
+  height: 100%;
+  width: 33.33%;
+}
+.box4 {
+  height: 100%;
+  width: 33.33%;
+}
+.box5 {
+  height: 20%;
+  width: 50%;
+}
+/* control your content */
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.stretch {
+  height: 100%;
+  width: 100%;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* add effects on click (UX) */
+.translucent {
+  opacity: 0.5;
+}
+.disappear {
+  display: none;
+}
+.h1 {
+  font-family: "Trebuchet MS";
+  font-size: 180%;
+}
+.h2 {
+  font-family: "Trebuchet MS";
+  font-size: 180%;
+}
+.h3 {
+  color: white;
+  font-family: "Trebuchet MS";
+  font-size: 180%;
+}
+/* colors */
+.orange {
+  background-color: #f3a903;
+}
+.navy-blue {
+  background-color: #1e4676;
+}
+.black {
+  background-color: #000000;
+}
+.light-grey {
+  background-color: #f0f0f0;
+}
+.dark-grey {
+  background-color: #707070;
+}
+.red {
+  background-color: #550c0c;
+}
+.bronze {
+  background-color: #6e580c;
+}
+.pink {
+  background-color: #eb5674;
+}
+.dark-green {
+  background-color: #10333a;
+}
+.white {
+  background-color: white;
+}
+.light-blue {
+  background-color: rgb(192, 209, 247);
+}
+.light-yellow {
+  background-color: lightyellow;
+}
+.light-orange {
+  background-color: rgb(252, 213, 186);
+}
+.light-green {
+  background-color: rgb(213, 255, 243);
+}
+.greyish {
+  background-color: silver;
+}
+/* want to make something happen when you hover?
+img:hover {
+  cursor: pointer;
+}
+*/
+
+.clickable {
+  filter: brightness(82%) drop-shadow(2px 8px 3px);
+}
+
+/* suggest the element is clickable */
+.clickable:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(2px 8px 3px);
+}
+
+/* add satisfaction to click */
+.clickable:active {
+  filter: drop-shadow(0px 2px 3px);
+  transform: scale(0.98);
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 100px;
+  }
+  h2 {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body {
+    display: block;
+  }
+  .column1 {
+    height: 60%;
+    width: 100%;
+    display: block;
+  }
+
+  .column {
+    height: 40%;
+    width: 100%;
+    display: block;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  h1 {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+}

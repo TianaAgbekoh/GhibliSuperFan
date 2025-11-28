@@ -1,1 +1,1 @@
-Designed and built a responsive webpage using HTML, CSS, and JAvascript to bring to life my favorite movie from studio ghibli. My process is documented here to show how I designed the site and how I used user feedback to improve.
+Designed and built a responsive webpage using HTML, CSS, and Javascript to bring to life my favorite movie from studio ghibli. My process is documented here to show how I designed the site and how I used user feedback to improve.
